@@ -12,4 +12,12 @@ document.querySelector(".check").addEventListener(".click", function () {
 
 if (!guess) {
   displayMessage("No number!");
+} else if (guess === secretNumber) {
+  displayMessage("Correct number!");
+  document.querySelector(".number").textContent = secretNumber;
+  document.body.style.backgroundColor = "green";
+
+  if (score > highscore) {
+    highscore = score;
+  }
 }
