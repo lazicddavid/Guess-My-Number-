@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
