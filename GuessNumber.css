@@ -29,6 +29,7 @@ body {
   color: #000;
   border: none;
   cursor: pointer;
+  border: none;
 }
 
 .range {
